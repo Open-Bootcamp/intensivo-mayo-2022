@@ -1,0 +1,46 @@
+2022-05-18 11:48:45.399 +02:00 [INF] HTTP GET /WeatherForecast responded 401 in 138.0669 ms
+2022-05-18 11:49:00.625 +02:00 [INF] HTTP POST /api/Account/GetToken responded 200 in 1723.4409 ms
+2022-05-18 11:49:15.504 +02:00 [INF] HTTP GET /WeatherForecast responded 403 in 86.3012 ms
+2022-05-18 11:50:09.628 +02:00 [VRB] WeatherForecastController - Get - Trace Level Log
+2022-05-18 11:50:09.662 +02:00 [DBG] WeatherForecastController - Get - Debug Level Log
+2022-05-18 11:50:09.664 +02:00 [INF] WeatherForecastController - Get - Information Level Log
+2022-05-18 11:50:09.666 +02:00 [WRN] WeatherForecastController - Get - Warning Level Log
+2022-05-18 11:50:09.667 +02:00 [ERR] WeatherForecastController - Get - Error Level Log
+2022-05-18 11:50:09.669 +02:00 [FTL] WeatherForecastController - Get - Critical Level Log
+2022-05-18 11:50:09.680 +02:00 [INF] HTTP GET /WeatherForecast responded 200 in 61.3671 ms
+2022-05-18 11:51:05.158 +02:00 [VRB] WeatherForecastController - Get - Trace Level Log
+2022-05-18 11:51:05.202 +02:00 [DBG] WeatherForecastController - Get - Debug Level Log
+2022-05-18 11:51:05.204 +02:00 [INF] WeatherForecastController - Get - Information Level Log
+2022-05-18 11:51:05.206 +02:00 [WRN] WeatherForecastController - Get - Warning Level Log
+2022-05-18 11:51:05.207 +02:00 [ERR] WeatherForecastController - Get - Error Level Log
+2022-05-18 11:51:05.209 +02:00 [FTL] WeatherForecastController - Get - Critical Level Log
+2022-05-18 11:51:05.217 +02:00 [INF] HTTP GET /WeatherForecast responded 200 in 69.3977 ms
+2022-05-18 12:11:07.251 +02:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2022-05-18 12:11:07.308 +02:00 [INF] warn: 18/05/2022 12:11:07.304 CoreEventId.SensitiveDataLoggingEnabledWarning[10400] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2022-05-18 12:11:07.554 +02:00 [INF] info: 18/05/2022 12:11:07.554 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 6.0.4 initialized 'UniversityDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: SensitiveDataLoggingEnabled DetailedErrorsEnabled 
+2022-05-18 12:11:07.943 +02:00 [INF] info: 18/05/2022 12:11:07.943 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (40ms) [Parameters=[@__userLogin_UserName_0='string' (Size = 50), @__userLogin_Password_1='string' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[CreatedBy], [u].[DeletedAt], [u].[DeletedBy], [u].[Email], [u].[IsDeleted], [u].[LastName], [u].[Name], [u].[Password], [u].[UpdatedAt], [u].[UpdatedBy]
+      FROM [Users] AS [u]
+      WHERE ([u].[Name] = @__userLogin_UserName_0) AND ([u].[Password] = @__userLogin_Password_1)
+2022-05-18 12:11:08.227 +02:00 [INF] HTTP POST /api/Account/GetToken responded 200 in 1880.9496 ms
+2022-05-18 12:11:31.381 +02:00 [VRB] WeatherForecastController - Get - Trace Level Log
+2022-05-18 12:11:31.384 +02:00 [DBG] WeatherForecastController - Get - Debug Level Log
+2022-05-18 12:11:31.386 +02:00 [INF] WeatherForecastController - Get - Information Level Log
+2022-05-18 12:11:31.390 +02:00 [WRN] WeatherForecastController - Get - Warning Level Log
+2022-05-18 12:11:31.393 +02:00 [ERR] WeatherForecastController - Get - Error Level Log
+2022-05-18 12:11:31.394 +02:00 [FTL] WeatherForecastController - Get - Critical Level Log
+2022-05-18 12:11:31.402 +02:00 [INF] HTTP GET /WeatherForecast responded 200 in 23.6057 ms
+2022-05-18 12:11:47.298 +02:00 [INF] HTTP GET /api/Account/GetUserList responded 403 in 130.5901 ms
+2022-05-18 12:12:47.874 +02:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2022-05-18 12:12:47.926 +02:00 [INF] warn: 18/05/2022 12:12:47.922 CoreEventId.SensitiveDataLoggingEnabledWarning[10400] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2022-05-18 12:12:48.137 +02:00 [INF] info: 18/05/2022 12:12:48.137 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 6.0.4 initialized 'UniversityDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: SensitiveDataLoggingEnabled DetailedErrorsEnabled 
+2022-05-18 12:12:48.409 +02:00 [INF] info: 18/05/2022 12:12:48.409 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (19ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [u].[Id], [u].[CreatedAt], [u].[CreatedBy], [u].[DeletedAt], [u].[DeletedBy], [u].[Email], [u].[IsDeleted], [u].[LastName], [u].[Name], [u].[Password], [u].[UpdatedAt], [u].[UpdatedBy]
+      FROM [Users] AS [u]
+2022-05-18 12:12:48.505 +02:00 [INF] HTTP GET /api/Users responded 200 in 1322.0014 ms
