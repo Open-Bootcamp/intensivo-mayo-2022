@@ -1,0 +1,15 @@
+C:\Users\MartinSanJoseDeVicen\OneDrive - IMAGINA WEB & MOBILE TECHONOLOGIES S.L\Desktop\Imagina Formación\Demos\.Net 6\EjemploFujoAsync\EjemploFujoAsync\bin\Debug\net6.0\EjemploFujoAsync.exe
+C:\Users\MartinSanJoseDeVicen\OneDrive - IMAGINA WEB & MOBILE TECHONOLOGIES S.L\Desktop\Imagina Formación\Demos\.Net 6\EjemploFujoAsync\EjemploFujoAsync\bin\Debug\net6.0\EjemploFujoAsync.deps.json
+C:\Users\MartinSanJoseDeVicen\OneDrive - IMAGINA WEB & MOBILE TECHONOLOGIES S.L\Desktop\Imagina Formación\Demos\.Net 6\EjemploFujoAsync\EjemploFujoAsync\bin\Debug\net6.0\EjemploFujoAsync.runtimeconfig.json
+C:\Users\MartinSanJoseDeVicen\OneDrive - IMAGINA WEB & MOBILE TECHONOLOGIES S.L\Desktop\Imagina Formación\Demos\.Net 6\EjemploFujoAsync\EjemploFujoAsync\bin\Debug\net6.0\EjemploFujoAsync.dll
+C:\Users\MartinSanJoseDeVicen\OneDrive - IMAGINA WEB & MOBILE TECHONOLOGIES S.L\Desktop\Imagina Formación\Demos\.Net 6\EjemploFujoAsync\EjemploFujoAsync\bin\Debug\net6.0\EjemploFujoAsync.pdb
+C:\Users\MartinSanJoseDeVicen\OneDrive - IMAGINA WEB & MOBILE TECHONOLOGIES S.L\Desktop\Imagina Formación\Demos\.Net 6\EjemploFujoAsync\EjemploFujoAsync\obj\Debug\net6.0\EjemploFujoAsync.csproj.AssemblyReference.cache
+C:\Users\MartinSanJoseDeVicen\OneDrive - IMAGINA WEB & MOBILE TECHONOLOGIES S.L\Desktop\Imagina Formación\Demos\.Net 6\EjemploFujoAsync\EjemploFujoAsync\obj\Debug\net6.0\EjemploFujoAsync.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MartinSanJoseDeVicen\OneDrive - IMAGINA WEB & MOBILE TECHONOLOGIES S.L\Desktop\Imagina Formación\Demos\.Net 6\EjemploFujoAsync\EjemploFujoAsync\obj\Debug\net6.0\EjemploFujoAsync.AssemblyInfoInputs.cache
+C:\Users\MartinSanJoseDeVicen\OneDrive - IMAGINA WEB & MOBILE TECHONOLOGIES S.L\Desktop\Imagina Formación\Demos\.Net 6\EjemploFujoAsync\EjemploFujoAsync\obj\Debug\net6.0\EjemploFujoAsync.AssemblyInfo.cs
+C:\Users\MartinSanJoseDeVicen\OneDrive - IMAGINA WEB & MOBILE TECHONOLOGIES S.L\Desktop\Imagina Formación\Demos\.Net 6\EjemploFujoAsync\EjemploFujoAsync\obj\Debug\net6.0\EjemploFujoAsync.csproj.CoreCompileInputs.cache
+C:\Users\MartinSanJoseDeVicen\OneDrive - IMAGINA WEB & MOBILE TECHONOLOGIES S.L\Desktop\Imagina Formación\Demos\.Net 6\EjemploFujoAsync\EjemploFujoAsync\obj\Debug\net6.0\EjemploFujoAsync.dll
+C:\Users\MartinSanJoseDeVicen\OneDrive - IMAGINA WEB & MOBILE TECHONOLOGIES S.L\Desktop\Imagina Formación\Demos\.Net 6\EjemploFujoAsync\EjemploFujoAsync\obj\Debug\net6.0\refint\EjemploFujoAsync.dll
+C:\Users\MartinSanJoseDeVicen\OneDrive - IMAGINA WEB & MOBILE TECHONOLOGIES S.L\Desktop\Imagina Formación\Demos\.Net 6\EjemploFujoAsync\EjemploFujoAsync\obj\Debug\net6.0\EjemploFujoAsync.pdb
+C:\Users\MartinSanJoseDeVicen\OneDrive - IMAGINA WEB & MOBILE TECHONOLOGIES S.L\Desktop\Imagina Formación\Demos\.Net 6\EjemploFujoAsync\EjemploFujoAsync\obj\Debug\net6.0\EjemploFujoAsync.genruntimeconfig.cache
+C:\Users\MartinSanJoseDeVicen\OneDrive - IMAGINA WEB & MOBILE TECHONOLOGIES S.L\Desktop\Imagina Formación\Demos\.Net 6\EjemploFujoAsync\EjemploFujoAsync\obj\Debug\net6.0\ref\EjemploFujoAsync.dll
