@@ -1,0 +1,50 @@
+<form [formGroup]="studentForm" novalidate (ngSubmit)="onSubmit()">
+  <mat-card class="shipping-card">
+    <mat-card-header>
+      <mat-card-title>Student information - {{student?.id}}</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <div class="row">
+        <div class="col">
+          <mat-form-field class="full-width">
+            <input matInput placeholder="First name" formControlName="firstName">
+            <mat-error *ngIf="studentForm.controls['firstName'].hasError('required')">
+              First name is <strong>required</strong>
+            </mat-error>
+          </mat-form-field>
+        </div>
+        <div class="col">
+          <mat-form-field class="full-width">
+            <input matInput placeholder="Last name" formControlName="lastName">
+            <mat-error *ngIf="studentForm.controls['lastName'].hasError('required')">
+              Last name is <strong>required</strong>
+            </mat-error>
+          </mat-form-field>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <mat-form-field appearance="fill">
+            <mat-label>Choose a date</mat-label>
+            <input matInput [matDatepicker]="picker" formControlName="dob">
+            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+          </mat-form-field>
+        </div>
+      </div>
+      <!-- <div class="row">
+        <div class="col">
+          <mat-list role="list" *ngFor="let course of student?.courses">
+            <mat-list-item role="listitem">{{course.name}}</mat-list-item>
+          </mat-list>
+        </div>
+      </div> -->
+    </mat-card-content>
+    <mat-card-actions>
+      <button *ngIf="studentForm.disabled" [disabled]="studentForm.invalid" mat-raised-button color="primary" (click)="enableForm()">Edit</button>
+      <button *ngIf="studentForm.disabled" mat-raised-button (click)="navigateBack()">Back to list</button>
+      <button *ngIf="studentForm.enabled" [disabled]="studentForm.invalid && studentForm.enabled" mat-raised-button color="primary" type="submit">Save</button>
+      <button *ngIf="studentForm.enabled" mat-raised-button color="warn" (click)="disableForm()">Cancel</button>
+    </mat-card-actions>
+  </mat-card>
+</form>

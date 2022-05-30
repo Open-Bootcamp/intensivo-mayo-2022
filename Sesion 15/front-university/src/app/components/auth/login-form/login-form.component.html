@@ -1,0 +1,26 @@
+<div>
+  <form [formGroup]="loginForm" (submit)="login()">
+    <mat-grid-list cols="1" rowHeight="50px">
+      <mat-grid-tile [colspan]="1" [rowspan]="1">
+          <div>
+            <h2>Login</h2>
+          </div>
+      </mat-grid-tile>
+      <mat-grid-tile [colspan]="1" [rowspan]="1">
+        <mat-form-field appearance="fill">
+          <input matInput placeholder="User Name" formControlName="userName" type="text" />
+        </mat-form-field>
+      </mat-grid-tile>
+      <mat-grid-tile [colspan]="1" [rowspan]="1">
+        <mat-form-field appearance="fill">
+          <input matInput placeholder="Password" formControlName="password" type="password" />
+        </mat-form-field>
+      </mat-grid-tile>
+      <mat-grid-tile [colspan]="1" [rowspan]="1">
+        <button type="submit" [disabled]="loginForm.invalid">
+          Login
+        </button>
+      </mat-grid-tile>
+    </mat-grid-list>
+  </form>
+</div>
